@@ -14,7 +14,7 @@ function ToDo() {
     const dispatch = useDispatch();
 
     useEffect(() => {
-        dispatch(fetchTodosAction(todos));
+        dispatch(fetchTodosAction());
     }, []);
 
     async function deleteTodoItem(id) {

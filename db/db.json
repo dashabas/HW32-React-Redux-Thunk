@@ -17,7 +17,7 @@
     },
     {
       "task": "buy pesto",
-      "status": false,
+      "status": true,
       "id": 10
     }
   ]
